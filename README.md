@@ -1,38 +1,29 @@
-Mendix UI Framework
-========================
+Mendix UI Framework for Incentro BA projects
+============================================
 
-This is the SCSS framework that is the basis for the Mendix UI Framework, introduced with the [Mendix DX Release](https://www.mendix.com/blog/drive-digital-innovation-with-the-mendix-dx-release/).
-
-You can explore all the features and see them in actions via the [Mendix UI Framework Showcase App](https://ux.mendix.com/)
+This is the SCSS framework that is the basis for the Mendix UI Framework, modified for Incentro Mendix projects.
 
 ## Features
 
  * Uses Bootstrap framework
  * Uses SCSS partials to help structure the CSS
- * Uses Compass to take advantage of CSS3 mixins (no prefixes needed)
- * Styled Page Templates that are available in mendix version 5.18
+ * Uses a Gulp file which contains autoprefixer (no use for Compass here)
+ * Added a 'mixins' folder with usable mixins (activate/ disable within the 'custom.scss' file)
+ * Added a 'addon' folder for SCSS files that contain commonly used styles (activate/ disable within the 'custom.scss' file)
+ * Included a flexbox addon with styling for easy flexbox usage.
 
-## How To Use Custom CSS
+## How To Use
 
-Want to add or change styling? Use the files located in the custom directory.
+Place all the files in this project in a new folder 'sass' in the root directory of a new Mendix project. Use Gulp to watch for changes in the SCSS files and automatically compile to the theme folder AND deployment folder for instant reloading of the page and seeing the results.
 
-## How To Use SCSS
+Don't forget to use 'npm install' when using Gulp for the first time in a new project. This will download all node_module dependencies. After that, you can use the 'gulp' command to compile and keep track of changes.
 
-Mendix Framework uses SASS and Compass, which rely on Ruby. However you can install [Scout](http://mhs.github.io/scout-app/) to run Sass and Compass in a self-contained Ruby environment, letting you effortlessly manage all of your Sass projects with a handful of clicks. 
-
-View the full documentation [Here](https://ux.mendix.com/index.html?profile=desktop#!/MyFirstModule/How_to_customize)
-
-#### Setup Scout
-
-Add your Mendix project in Scout and select the styles folder as the input and output folder for the stylesheet directory. Press play!
-
-#### Edit the SCSS files
-
-When you make changes to any of the scss files, your lib.css file will be automatically updated. You don't edit lib.css directly, compass takes care of that for you.
 
 ## Further Documentation
 
  * [Bootstrap](http://getbootstrap.com)
- * [Compass Framework](http://compass-style.org/)
  * [SASS](http://sass-lang.com/)
- * [Scout](http://mhs.github.io/scout-app/)
+ * [Gulp](http://gulpjs.com/)
+ * [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
+
+A small sidenote: The lib.css should not be modified. Therefore the SCSS files have been removed. Also, without the use of Compass, this environment will not work properly in combination with the current Gulp usage.

@@ -1,12 +1,28 @@
 @import "custom-variables";
 
-// Modules and Variables
+
+// Modules and Variables =======================================================
 @import "../lib/lib";
 
-// Base
+
+// Mixins ======================================================================
+// @import 'mixins/arrow';
+// @import 'mixins/aspect-ratio';
+@import 'mixins/breakpoints';
+// @import 'mixins/ellipsis';
+// @import 'mixins/gradient';
+
+
+// Addons ======================================================================
+@import 'addon/broken-image';
+@import 'addon/flexbox';
+
+
+// Base ========================================================================
 @import "base/base.scss";
 
-// Components
+
+// Components ==================================================================
 @import "components/alerts";
 @import "components/buttons";
 @import "components/datagrids";
@@ -23,16 +39,19 @@
 @import "components/templategrids";
 @import "components/typography";
 
-// Layouts
+
+// Layouts =====================================================================
 @import "layouts/base";
 
-// Mobile
+
+// Mobile ======================================================================
 @import "mobile/layouts/base";
 @import "mobile/components/listview";
 @import "mobile/components/mx-header";
 @import "mobile/components/tabcontainer";
 
-// Page Templates
+
+// Page Templates ==============================================================
 @import "pagetemplates/responsive/page-dashboard";
 @import "pagetemplates/responsive/page-form";
 @import "pagetemplates/responsive/page-masterdetail";
@@ -50,7 +69,7 @@
 @import "pagetemplates/tablet/tablet-page-masterdetail";
 @import "pagetemplates/tablet/tablet-page-wizard";
 
-// Building Blocks
+// Building Blocks =============================================================
 @import "buildingblocks/card";
 @import "buildingblocks/dashboardcard";
 @import "buildingblocks/dashboardstat";
