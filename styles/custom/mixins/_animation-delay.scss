@@ -1,0 +1,15 @@
+//  Animation delay
+//  Great for use in lists
+//
+//  Inputs:
+//  - identifier: the class/id for the item that will be animated
+//  - total_number_items: the total number of iterations in the for loop
+//  - animation to play (check animations scss)
+@mixin animation-delay($identifier, $total_number_items: 10, $animation: slideIn, $delay: 0) {
+  @for $i from 0 to $total_number_items + 1 {
+    #{$identifier}#{$i} {
+      animation: $animation .2s forwards;
+      animation-delay: $delay + 42ms * $i;
+    }
+  }
+}
