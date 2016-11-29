@@ -12,14 +12,13 @@
 // @import 'mixins/ellipsis';
 // @import 'mixins/gradient';
 // @import 'mixins/get-color-yiq';
-
-// @import "addon/animations";
 // @import "mixins/animation-delay";
 
 
 // Addons ======================================================================
 @import 'addon/broken-image';
 @import 'addon/flexbox';
+// @import "addon/animations";
 
 
 // Base ========================================================================
@@ -42,6 +41,7 @@
 @import "components/tables";
 @import "components/templategrids";
 @import "components/typography";
+@import "components/typography-addon";
 
 
 // Layouts =====================================================================

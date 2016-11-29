@@ -41,6 +41,7 @@
   &.column {flex-direction: column;}
   &.row-reverse {flex-direction: row-reverse;}
   &.column-reverse {flex-direction: column-reverse;}
+  &.nowrap {flex-wrap: nowrap;}
 
   figure {
     margin: 0;
