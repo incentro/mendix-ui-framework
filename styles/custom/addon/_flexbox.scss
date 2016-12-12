@@ -3,26 +3,26 @@
   align-items: flex-start;
   display: flex;
   flex-flow: row wrap;
-  @include breakpoint(small) {
+  @include breakpoint('phone-only') {
     flex-direction: column;
     flex-flow: column wrap;
   }
-  @include breakpoint(medium) {flex-direction: row;}
+  @include breakpoint('tablet-portrait') {flex-direction: row;}
 
   .flex-spacing {margin-right: 10px;}
   .flex-single {
-    @include breakpoint(small) {
+    @include breakpoint('phone-only') {
       flex: auto !important;
       width: 100%;
     }
-    @include breakpoint(medium) {flex: 1;}
+    @include breakpoint('tablet-portrait') {flex: 1;}
   }
   .flex-double {
-    @include breakpoint(small) {
+    @include breakpoint('phone-only') {
       flex: 2;
       width: 100%;
     }
-    @include breakpoint(medium) {
+    @include breakpoint('tablet-portrait') {
       flex: 2;
       & + .flex-half {margin-left: 10px;}
     }

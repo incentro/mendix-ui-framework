@@ -1,22 +1,13 @@
 @mixin breakpoint($point) {
-  $small: "(max-width: 958px)";
-  $medium: "(min-width: 959px)";
-  $large: "(min-width: 1200px)";
-  $extra-large: "(min-width: 1200px)";
-
-  @if $point == small {
-    @media #{$small} { @content; }
-  }
-  
-  @else if $point == medium {
-    @media #{$medium} { @content; }
-  }
-  
-  @else if $point == large {
-    @media #{$large}  { @content; }
-  }
-
-  @else if $point == extra-large {
-    @media #{$extra-large}  { @content; }
+  @if $point == 'phone-only' {
+    @media (max-width: 599px) { @content; }
+  } @else if $point == 'tablet-portrait' {
+    @media (min-width: 600px) { @content; }
+  } @else if $point == 'tablet-landscape' {
+    @media (min-width: 900px) { @content; }
+  } @else if $point == 'desktop' {
+    @media (min-width: 1200px) { @content; }
+  } @else if $point == 'big-desktop' {
+    @media (min-width: 1800px) { @content; }
   }
 }
