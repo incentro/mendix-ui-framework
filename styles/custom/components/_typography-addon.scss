@@ -29,12 +29,14 @@ body {@include font-smoothing();}
 
 
 // Oneliner  -------------------------------------------------------------------
-.oneliner label,
-.oneliner .formatstring {
+@mixin oneliner($max-width: 100%) {
   display: inline-block;
-  max-width: 90%;
+  max-width: $max-width;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: auto;
 }
+
+.oneliner label,
+.oneliner .formatstring {@include oneliner(100%);}
