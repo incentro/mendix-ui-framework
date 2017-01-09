@@ -39,4 +39,5 @@ body {@include font-smoothing();}
 }
 
 .oneliner label,
-.oneliner .formatstring {@include oneliner(100%);}
+.oneliner .formatstring,
+.oneliner {@include oneliner(100%);}

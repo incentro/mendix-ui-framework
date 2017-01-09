@@ -9,7 +9,45 @@
   }
   @include breakpoint('tablet-portrait') {flex-direction: row;}
 
-  .flex-spacing {margin-right: 10px;}
+  // container -----------------------------------------------------------------
+  &.items-start                     {align-items: flex-start;}
+  &.items-end, &.align-bottom       {align-items: flex-end;}
+  &.items-center, &.vertical-center {align-items: center;}
+  &.items-stretch, &.stretch        {align-items: stretch;}
+  &.items-baseline                  {align-items: baseline;}
+
+  &.direction-row                              {flex-direction: row;}
+  &.direction-row-reverse, &.row-reverse       {flex-direction: row-reverse;}
+  &.direction-column, &.column                 {flex-direction: column;}
+  &.direction-column-reverse, &.column-reverse {flex-direction: column-reverse;}
+
+  &.flex-nowrap, &.nowrap, &.single-line {flex-wrap: nowrap;}
+  &.flex-wrap                            {flex-wrap: wrap;}
+  &.flex-wrap-reverse                    {flex-wrap: wrap-reverse;}
+
+  &.justify-start {justify-content: flex-start;}
+  &.justify-end {justify-content: flex-end;}
+  &.justify-center, &.center {justify-content: center;}
+  &.justify-between, &.space-between {justify-content: space-between;}
+  &.justify-around {justify-content: space-around;}
+
+  &.horizontal-space, &.spacing {
+    @include breakpoint('tablet-landscape') {
+      .flex-single + .flex-single,
+      .flex-double + .flex-single,
+      .flex-double + .flex-double {margin-left: 2em;}
+    }
+  }
+
+
+  // elements ------------------------------------------------------------------
+  .align-self-auto {align-self: auto;}
+  .align-self-start {align-self: flex-start;}
+  .align-self-end {align-self: flex-end;}
+  .align-self-center {align-self: center;}
+  .align-self-baseline {align-self: baseline;}
+  .align-self-stretch {align-self: stretch;}
+
   .flex-single {
     @include breakpoint('phone-only') {
       flex: auto !important;
@@ -22,30 +60,10 @@
       flex: 2;
       width: 100%;
     }
-    @include breakpoint('tablet-portrait') {
-      flex: 2;
-      & + .flex-half {margin-left: 10px;}
-    }
+    @include breakpoint('tablet-portrait') {flex: 2;}
   }
   .flex-single[class^="col-md-"],
   .flex-double[class^="col-md-"] {width: auto !important;}
 
-  .flex-full {flex: 2 100%;}
-
-  &.single-line {flex-wrap: nowrap;}
-  &.vertical-center {align-items: center;}
-  &.align-bottom {align-items: flex-end;}
-  &.stretch {align-items: stretch;}
-  &.center {justify-content: center;}
-  &.space-between {justify-content: space-between;}
-  &.column {flex-direction: column;}
-  &.row-reverse {flex-direction: row-reverse;}
-  &.column-reverse {flex-direction: column-reverse;}
-  &.nowrap {flex-wrap: nowrap;}
-
-  figure {
-    margin: 0;
-    text-align: center;
-    img {max-width: 100%;}
-  }
+  img {max-width: 100%;}
 }
