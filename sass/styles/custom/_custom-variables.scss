@@ -1,11 +1,11 @@
-//== Step 1: 
+//== Step 1:
 //
 //## To get the quickest changes in your theme adjust the basic theme colors defined below.
 
 // Theme Colors
-$color-default: 						#DDD;	
-$color-primary: 						#59C2E6;	
-$color-inverse: 						#3D3F41; 
+$color-default: 						#DDD;
+$color-primary: 						#59C2E6;
+$color-inverse: 						#3D3F41;
 $color-info: 							#8AD4ED;
 $color-success: 						#8CC152;
 $color-warning: 						#F6BB42;
@@ -26,7 +26,7 @@ $color-text-white:			            #FFF;
 
 
 
-//== Step 2: 
+//== Step 2:
 //
 //## Settings for some of the most global styles.
 
@@ -37,10 +37,10 @@ $color-layout-bg:						#FFF;
 $color-layout-bg-secondary:				#EFF4F7;
 
 //== Layout settings
-// Topbar 
+// Topbar
 $color-topbar-bg: 						#FFF;
 $minimalheight-topbar:					80px;
-// Sidebar 
+// Sidebar
 $color-sidebar-bg: 						$color-inverse;
 // Mobile header
 $m-height-header:						44px;
@@ -68,7 +68,7 @@ $color-border-default:					$gray-primary;
 
 
 
-//== Step 3: 
+//== Step 3:
 //
 //## Advanced layout options
 
@@ -93,7 +93,7 @@ $t-default-spacing-left:				30px;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-// Font Family					
+// Font Family
 // $font-family-base:					false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
 // $font-family-light:					false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
 // $font-family-semibold:				false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -101,9 +101,9 @@ $t-default-spacing-left:				30px;
 
 // Font Weight
 // $font-weight-light:					100;
-// $font-weight-normal:					normal; 		
+// $font-weight-normal:					normal;
 // $font-weight-semibold:				500;
-// $font-weight-bold:					bold; 
+// $font-weight-bold:					bold;
 
 // $font-weight-headers:				$font-weight-normal;
 
@@ -126,7 +126,7 @@ $t-default-spacing-left:				30px;
 
 //== Color variations
 //
-//## 
+//##
 // Text Colors
 // $color-text-black-secondary:         lighten($color-text-black, 40%);
 // $color-text-black-disabled:			rgba($color-text-black, .26);
@@ -137,39 +137,39 @@ $t-default-spacing-left:				30px;
 // $color-text-white-hint:              rgba($color-text-white,	.3);
 
 // Color Variations
-// $color-default-darker: 				shade($color-default,40);	
-// $color-default-dark: 				shade($color-default,26);	
-// $color-default-light: 				tint($color-default,40);	
-// $color-default-lighter: 				tint($color-default,80);	
+// $color-default-darker: 				shade($color-default,40);
+// $color-default-dark: 				shade($color-default,26);
+// $color-default-light: 				tint($color-default,40);
+// $color-default-lighter: 				tint($color-default,80);
 
-// $color-inverse-darker: 				shade($color-inverse,40);	
-// $color-inverse-dark: 				shade($color-inverse,26);	
-// $color-inverse-light: 				tint($color-inverse,40);	
-// $color-inverse-lighter: 				tint($color-inverse,80);	
+// $color-inverse-darker: 				shade($color-inverse,40);
+// $color-inverse-dark: 				shade($color-inverse,26);
+// $color-inverse-light: 				tint($color-inverse,40);
+// $color-inverse-lighter: 				tint($color-inverse,80);
 
-// $color-primary-darker: 				shade($color-primary,40);	
-// $color-primary-dark: 				shade($color-primary,26);	
-// $color-primary-light: 				tint($color-primary,40);	
-// $color-primary-lighter: 				tint($color-primary,80);	
+// $color-primary-darker: 				shade($color-primary,40);
+// $color-primary-dark: 				shade($color-primary,26);
+// $color-primary-light: 				tint($color-primary,40);
+// $color-primary-lighter: 				tint($color-primary,80);
 
-// $color-info-darker: 					shade($color-info,40);	
-// $color-info-dark: 					shade($color-info,26);	
-// $color-info-light: 					tint($color-info,40);	
-// $color-info-lighter: 				tint($color-info,80);	
+// $color-info-darker: 					shade($color-info,40);
+// $color-info-dark: 					shade($color-info,26);
+// $color-info-light: 					tint($color-info,40);
+// $color-info-lighter: 				tint($color-info,80);
 
-// $color-success-darker: 				shade($color-success,40);	
-// $color-success-dark: 				shade($color-success,26);	
-// $color-success-light: 				tint($color-success,40);	
-// $color-success-lighter: 				tint($color-success,80);	
+// $color-success-darker: 				shade($color-success,40);
+// $color-success-dark: 				shade($color-success,26);
+// $color-success-light: 				tint($color-success,40);
+// $color-success-lighter: 				tint($color-success,80);
 
-// $color-warning-darker: 				shade($color-warning,40);	
-// $color-warning-dark: 				shade($color-warning,26);	
-// $color-warning-light: 				tint($color-warning,40);	
-// $color-warning-lighter: 				tint($color-warning,80);	
+// $color-warning-darker: 				shade($color-warning,40);
+// $color-warning-dark: 				shade($color-warning,26);
+// $color-warning-light: 				tint($color-warning,40);
+// $color-warning-lighter: 				tint($color-warning,80);
 
-// $color-danger-darker: 				shade($color-danger,40);	
-// $color-danger-dark: 					shade($color-danger,26);	
-// $color-danger-light: 				tint($color-danger,40);	
+// $color-danger-darker: 				shade($color-danger,40);
+// $color-danger-dark: 					shade($color-danger,26);
+// $color-danger-light: 				tint($color-danger,40);
 // $color-danger-lighter: 				tint($color-danger,80);
 
 
@@ -178,9 +178,9 @@ $t-default-spacing-left:				30px;
 //
 //##
 
-// Label  
-// $color-label:						$color-text-black-secondary;		
-// $font-weight-label:					$font-weight-normal;			 
+// Label
+// $color-label:						$color-text-black-secondary;
+// $font-weight-label:					$font-weight-normal;
 
 // Input Color
 // $color-input-bg:						#FFF;
@@ -191,7 +191,7 @@ $t-default-spacing-left:				30px;
 // $color-input-text-disabled:			$color-input-text;
 // $color-input-placeholder-text:		$gray-light;
 // $color-input-border:					$color-border-default;
-// $color-input-border-focus:			$color-primary;	
+// $color-input-border-focus:			$color-primary;
 
 // Input Height
 // $input-height:						33px;
@@ -227,14 +227,14 @@ $t-default-spacing-left:				30px;
 //## For each buttons, define text, background and border color.
 
 // Background Color
-// $color-btn-bg-default: 				$color-default;	
-// $color-btn-bg-inverse: 				$color-inverse;	
-// $color-btn-bg-primary: 				$color-primary; 
-// $color-btn-bg-info: 					$color-info; 
-// $color-btn-bg-success: 				$color-success; 
+// $color-btn-bg-default: 				$color-default;
+// $color-btn-bg-inverse: 				$color-inverse;
+// $color-btn-bg-primary: 				$color-primary;
+// $color-btn-bg-info: 					$color-info;
+// $color-btn-bg-success: 				$color-success;
 // $color-btn-bg-warning: 				$color-warning;
-// $color-btn-bg-danger: 				$color-danger; 	
-// $color-btn-bg-white: 				#FFF; 
+// $color-btn-bg-danger: 				$color-danger;
+// $color-btn-bg-white: 				#FFF;
 
 // Text Color
 // $color-btn-text-default: 			$color-text-black;
@@ -244,7 +244,7 @@ $t-default-spacing-left:				30px;
 // $color-btn-text-success: 			#FFF;
 // $color-btn-text-warning: 			#FFF;
 // $color-btn-text-danger: 				#FFF;
-// $color-btn-text-white: 				$color-text-black; 
+// $color-btn-text-white: 				$color-text-black;
 
 // Border Color
 // $color-btn-border-default: 			$color-default;
@@ -254,7 +254,7 @@ $t-default-spacing-left:				30px;
 // $color-btn-border-success: 			$color-success;
 // $color-btn-border-warning: 			$color-warning;
 // $color-btn-border-danger: 			$color-danger;
-// $color-btn-border-white: 			#FFF; 
+// $color-btn-border-white: 			#FFF;
 
 
 
@@ -289,11 +289,11 @@ $t-default-spacing-left:				30px;
 // $color-grid-bg:						#FFF;
 // $color-grid-bg-header:				transparent; // Grid Headers
 // $color-grid-bg-hover: 				shade($color-primary-lighter,3);
-// $color-grid-bg-selected: 			$color-primary;	
+// $color-grid-bg-selected: 			$color-primary;
 // $color-grid-bg-selected-hover: 		shade($color-primary-lighter,3);
 // $color-grid-text-selected:			$font-color-base;
 
-// Striped 
+// Striped
 // $color-grid-bg-striped: 				lighten($color-grid-border,5);
 
 // Footer
@@ -307,12 +307,12 @@ $t-default-spacing-left:				30px;
 
 // Background Color
 // $color-groupbox-default: 			$color-default;
-// $color-groupbox-inverse: 			$color-inverse; 
-// $color-groupbox-primary: 			$color-primary; 
+// $color-groupbox-inverse: 			$color-inverse;
+// $color-groupbox-primary: 			$color-primary;
 // $color-groupbox-info: 				$color-info;
-// $color-groupbox-success: 			$color-success; 
+// $color-groupbox-success: 			$color-success;
 // $color-groupbox-warning: 			$color-warning;
-// $color-groupbox-danger: 				$color-danger; 	
+// $color-groupbox-danger: 				$color-danger;
 // $color-groupbox-white: 				#FFF;
 
 // Text Color
@@ -338,9 +338,9 @@ $t-default-spacing-left:				30px;
 // $color-callout-danger:				$color-danger;
 
 // Background Color
-// $color-callout-bg-info:				$color-info-lighter; 
-// $color-callout-bg-success:			$color-success-lighter; 
-// $color-callout-bg-warning:			$color-warning-lighter; 
+// $color-callout-bg-info:				$color-info-lighter;
+// $color-callout-bg-success:			$color-success-lighter;
+// $color-callout-bg-warning:			$color-warning-lighter;
 // $color-callout-bg-danger:			$color-danger-lighter;
 
 
@@ -351,11 +351,11 @@ $t-default-spacing-left:				30px;
 
 // Background Color
 // $color-label-bg-default: 			$color-default;
-// $color-label-bg-primary: 			$color-primary; 
-// $color-label-bg-info: 				$color-info; 
-// $color-label-bg-success: 			$color-success; 
+// $color-label-bg-primary: 			$color-primary;
+// $color-label-bg-info: 				$color-info;
+// $color-label-bg-success: 			$color-success;
 // $color-label-bg-warning: 			$color-warning;
-// $color-label-bg-danger: 				$color-danger; 	
+// $color-label-bg-danger: 				$color-danger;
 
 // Text Color
 // $color-label-text-default: 			$color-text-black;
@@ -438,8 +438,8 @@ $t-default-spacing-left:				30px;
 // $color-tab-lined-text-active:		$color-primary;
 
 // Border Color
-// $color-tab-border:					$color-border-default;	
-// $color-tab-lined-border:				$color-primary;	
+// $color-tab-border:					$color-border-default;
+// $color-tab-lined-border:				$color-primary;
 
 // Background Color
 // $color-tab-bg-hover: 				lighten($color-tab-border,5);
@@ -470,11 +470,11 @@ $t-default-spacing-left:				30px;
 //##
 
 // Scroll container / layout container default padding (if you are using bootstrap containers use a minimal of 15px)
-// $padding-layoutcontainer-base:		0px; 
+// $padding-layoutcontainer-base:		0px;
 // $m-padding-layoutcontainer-base:		0px;
-// $t-padding-layoutcontainer-base:		0px; 
+// $t-padding-layoutcontainer-base:		0px;
 
-// Combined spacing 
+// Combined spacing
 // $default-spacing:					$default-spacing-top $default-spacing-right $default-spacing-bottom $default-spacing-left;
 // $m-default-spacing:					$m-default-spacing-top $m-default-spacing-right $m-default-spacing-bottom $m-default-spacing-left;
 // $t-default-spacing:					$t-default-spacing-top $t-default-spacing-right $t-default-spacing-bottom $t-default-spacing-left;
@@ -487,10 +487,10 @@ $t-default-spacing-left:				30px;
 //##
 
 // Default Table Spacing
-// $padding-table-cell-top:				8px;					
-// $padding-table-cell-bottom:			8px;					
-// $padding-table-cell-left:			8px;					
-// $padding-table-cell-right:			8px;			
+// $padding-table-cell-top:				8px;
+// $padding-table-cell-bottom:			8px;
+// $padding-table-cell-left:			8px;
+// $padding-table-cell-right:			8px;
 
 
 
@@ -501,34 +501,24 @@ $t-default-spacing-left:				30px;
 // //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
 // // Extra small screen / phone Deprecated `$screen-xs` as of v3.0.1
-// $screen-xs:                  480px;
-// // Deprecated `$screen-xs-min` as of v3.2.0
-// $screen-xs-min:              $screen-xs;
-// // Deprecated `$screen-phone` as of v3.0.1
-// $screen-phone:               $screen-xs-min;
+$screen-xs:                  480px;
 
 // // Small screen / tablet Deprecated `$screen-sm` as of v3.0.1
-// $screen-sm:                  768px;
-// $screen-sm-min:              $screen-sm;
-// // Deprecated `$screen-tablet` as of v3.0.1
-// $screen-tablet:              $screen-sm-min;
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
 
 // // Medium screen / desktop Deprecated `$screen-md` as of v3.0.1
-// $screen-md:                  992px;
-// $screen-md-min:              $screen-md;
-// // Deprecated `$screen-desktop` as of v3.0.1
-// $screen-desktop:             $screen-md-min;
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
 
 // // Large screen / wide desktop Deprecated `$screen-lg` as of v3.0.1
-// $screen-lg:                  1200px;
-// $screen-lg-min:              $screen-lg;
-// // Deprecated `$screen-lg-desktop` as of v3.0.1
-// $screen-lg-desktop:          $screen-lg-min;
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
 
 // // So media queries don't overlap when required, provide a maximum
-// $screen-xs-max:              ($screen-sm-min - 1);
-// $screen-sm-max:              ($screen-md-min - 1);
-// $screen-md-max:              ($screen-lg-min - 1);
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
 
 
 
@@ -536,7 +526,7 @@ $t-default-spacing-left:				30px;
 
 //== Mobile
 //
-//##				
+//##
 
 // Text Color
 // $m-color-header-text: 				$font-color-base;
@@ -557,7 +547,7 @@ $t-default-spacing-left:				30px;
 // Background Color
 // $m-color-tab-bg:						$color-primary;
 // $m-color-tab-bg-hover: 				lighten($color-tab-border,5);
-// $m-color-tab-bg-active:				darken($m-color-tab-bg, 15);	
+// $m-color-tab-bg-active:				darken($m-color-tab-bg, 15);
 
 // Border Color
 // $m-color-tab-border:					darken($m-color-tab-bg, 15);
