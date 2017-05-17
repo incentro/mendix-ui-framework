@@ -6,6 +6,8 @@
 var paths = {
   rootURL: 'localhost:8080',
   sass: 'styles/**/*.scss',
+  js: '../theme/js/*.js',
+  JSdeployment: '../deployment/web/js',
   CSSdeployment: '../deployment/web/styles/css',
   CSStheme: '../theme/styles/css'
 };
@@ -19,12 +21,13 @@ var autoprefixer  = require('gulp-autoprefixer');
 
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['sass', 'js'], function() {
     browserSync.init({
       //port: 21,
       proxy: paths.rootURL
     });
     gulp.watch(paths.sass, ['sass']);
+    gulp.watch(paths.js, ['js']);
     gulp.watch("../*.html").on('change', browserSync.reload);
 });
 
@@ -44,6 +47,14 @@ gulp.task('sass', function() {
     // .pipe(sourcemaps.write())
     .pipe(gulp.dest(paths.CSStheme))
     .pipe(gulp.dest(paths.CSSdeployment))
+    .pipe(browserSync.stream());
+});
+
+
+// Export updated js to deployment
+gulp.task('js', function() {
+  return gulp.src(paths.js)
+    .pipe(gulp.dest(paths.JSdeployment))
     .pipe(browserSync.stream());
 });
 
