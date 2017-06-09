@@ -33,6 +33,7 @@ a:hover {
 .mx-button {
   /* Styles here */
 }
+
 .btn:hover, .btn:focus, .btn:active,
 .mx-button:hover,
 .mx-button:focus,
@@ -80,24 +81,31 @@ a:hover {
 .mx-datagrid {
   /* Styles here */
 }
+
 .mx-datagrid .mx-datagrid-head-table {
   /* Styles here */
 }
+
 .mx-datagrid .mx-datagrid-head-table th {
   /* Styles here */
 }
+
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
   /* Styles here */
 }
+
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper .mx-datagrid-head-caption {
   font-size: 11px;
 }
+
 .mx-datagrid .mx-datagrid-body-table {
   /* Styles here */
 }
+
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr {
   /* Styles here */
 }
+
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
   /* Styles here */
 }
@@ -110,6 +118,7 @@ a:hover {
 .mx-dataview {
   /* Styles here */
 }
+
 .mx-dataview .mx-dataview-controls {
   /* Styles here */
 }
@@ -122,36 +131,47 @@ a:hover {
 .mx-grid {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button:hover {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-grid-paging-status {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-item {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-label {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-input {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-input .form-control {
   /* Styles here */
 }
+
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-input .mx-button {
   /* Styles here */
 }
@@ -164,15 +184,19 @@ a:hover {
 .mx-groupbox {
   /* Styles here */
 }
+
 .mx-groupbox > .mx-groupbox-header {
   /* Styles here */
 }
+
 .mx-groupbox > .mx-groupbox-body {
   /* Styles here */
 }
+
 .mx-groupbox .mx-groupbox-header + .mx-groupbox-body {
   /* Styles here */
 }
+
 .mx-groupbox.collapsed > .mx-groupbox-header {
   /* Styles here */
 }
@@ -200,24 +224,31 @@ a:hover {
 .mx-listview {
   /* Styles here */
 }
+
 .mx-listview .mx-button.mx-listview-clear-button {
   /* Styles here */
 }
+
 .mx-listview > .mx-button {
   /* Load more button */
 }
+
 .mx-listview .mx-listview-item {
   /* Styles here */
 }
+
 .mx-listview .mx-listview-item:hover {
   /* Styles here */
 }
+
 .mx-listview .mx-listview-item.selected {
   /* Styles here */
 }
+
 .mx-listview .mx-listview-item.selected:hover {
   /* Styles here */
 }
+
 .mx-listview .mx-listview-item:nth-child(2n+1) {
   /* Styles here */
 }
@@ -230,21 +261,27 @@ a:hover {
 .modal-dialog {
   /* Styles here */
 }
+
 .modal-dialog .modal-content {
   /* Styles here */
 }
+
 .modal-dialog .modal-content .modal-header {
   /* Styles here */
 }
+
 .modal-dialog .modal-content .modal-header h4 {
   /* Styles here */
 }
+
 .modal-dialog .modal-content .modal-header .close {
   /* Styles here */
 }
+
 .modal-dialog .modal-content .modal-body {
   /* Styles here */
 }
+
 .modal-dialog .modal-content .modal-footer {
   /* Styles here */
 }
@@ -254,19 +291,24 @@ a:hover {
 .mx-login {
   /* Styles here */
 }
+
 .mx-login .modal-body {
   /* Styles here */
 }
+
 .mx-login .modal-content {
   /* Styles here */
 }
+
 .mx-login .modal-header,
 .mx-login .modal-footer {
   /* Styles here */
 }
+
 .mx-login button {
   /* Styles here */
 }
+
 .mx-login h4 {
   /* Styles here */
 }
@@ -279,21 +321,27 @@ a:hover {
 .mx-navbar {
   /* Styles here */
 }
+
 .mx-navbar ul.nav {
   /* Styles here */
 }
+
 .mx-navbar ul.nav > li.mx-navbar-item > a {
   color: #FFF;
 }
+
 .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   /* Styles here */
 }
+
 .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   /* Styles here */
 }
+
 .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu:before {
   /* Dropdown Menu */
 }
+
 .mx-navbar ul.nav > .mx-navbar-item > a:hover,
 .mx-navbar ul.nav > .mx-navbar-item > a:focus,
 .mx-navbar ul.nav > .mx-navbar-item.active a,
@@ -302,6 +350,7 @@ a:hover {
 .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   /* When hovering or the dropdown is open */
 }
+
 .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   /* Styles here */
 }
@@ -314,30 +363,38 @@ a:hover {
 .mx-navigationtree {
   /* Styles here */
 }
+
 .mx-navigationtree .navbar-inner ul {
   /* Styles here */
 }
+
 .mx-navigationtree .navbar-inner ul li {
   /* Styles here */
 }
+
 .mx-navigationtree .navbar-inner ul li a {
   padding: 20px;
   border: 0;
 }
+
 .mx-navigationtree .navbar-inner ul li a .glyphicon {
   margin-right: 0.3em;
 }
+
 .mx-navigationtree .navbar-inner ul li a:hover,
 .mx-navigationtree .navbar-inner ul li a:focus,
 .mx-navigationtree .navbar-inner ul li a.active {
   /* Styles here */
 }
+
 .mx-navigationtree .navbar-inner ul li a.active {
   /* Styles here */
 }
+
 .mx-navigationtree li.mx-navigationtree-has-items {
   /* Styles here */
 }
+
 .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
   padding: 15px 40px;
 }
@@ -350,18 +407,25 @@ a:hover {
 .mx-menubar {
   /* Styles here */
 }
+
 .mx-menubar ul.mx-menubar-list {
   /* Styles here */
 }
+
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item {
   /* Styles here */
 }
+
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   /* Styles here */
 }
-.mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
+
+.mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a,
+.mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a,
+.mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   /* Styles here */
 }
+
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   /* Styles here */
 }
@@ -374,9 +438,11 @@ a:hover {
 .mx-navigationlist {
   /* Styles here */
 }
+
 .mx-navigationlist .mx-navigationlist-item {
   /* Styles here */
 }
+
 .mx-navigationlist .mx-navigationlist-item:hover {
   /* Styles here */
 }
@@ -390,20 +456,25 @@ a:hover {
 .mx-tabcontainer {
   /* Styles here */
 }
+
 .mx-tabcontainer .mx-tabcontainer-tabs {
   /* Styles here */
 }
+
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a {
   /* Styles here */
 }
+
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
   /* Styles here */
 }
+
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus {
   /* Styles here */
 }
+
 .mx-tabcontainer .mx-tabcontainer-content {
   /* Styles here */
 }
@@ -416,15 +487,19 @@ a:hover {
 table.mx-table {
   /* Styles here */
 }
+
 table.mx-table > tbody > tr {
   /* Styles here */
 }
+
 table.mx-table > tbody > tr > th {
   /* Styles here */
 }
+
 table.mx-table > tbody > tr > th > label {
   /* Styles here */
 }
+
 table.mx-table > tbody > tr > td {
   /* Styles here */
 }
@@ -437,15 +512,19 @@ table.mx-table > tbody > tr > td {
 .mx-templategrid {
   /* Styles here */
 }
+
 .mx-templategrid .mx-templategrid-item {
   /* Styles here */
 }
+
 .mx-templategrid .mx-templategrid-item:hover {
   /* Styles here */
 }
+
 .mx-templategrid .mx-templategrid-item.selected {
   /* Styles here */
 }
+
 .mx-templategrid .mx-templategrid-item.selected:hover {
   /* Styles here */
 }
@@ -479,19 +558,23 @@ h1, h2, h3, h4, h5, h6,
   border-bottom-color: #0595db;
   min-height: 60px;
 }
+
 .region-topbar > .mx-layoutcontainer-wrapper .navbar-brand img {
   height: 26px;
   margin-top: -5px;
   margin-right: 5px;
 }
+
 .region-topbar .toggle-btn {
   color: #FFF;
   border-color: #FFF;
 }
+
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
   border: 0;
 }
+
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder iframe {
   width: 38px !important;
   height: 38px !important;
@@ -516,6 +599,7 @@ h1, h2, h3, h4, h5, h6,
 .profile-tablet {
   /* Styles here */
 }
+
 .profile-phone .mx-layoutcontainer-wrapper,
 .profile-tablet .mx-layoutcontainer-wrapper {
   /* Styles here */
@@ -528,26 +612,32 @@ h1, h2, h3, h4, h5, h6,
 .profile-tablet .mx-listview {
   /* Styles here */
 }
+
 .profile-phone .mx-listview .mx-listview-searchbar,
 .profile-tablet .mx-listview .mx-listview-searchbar {
   /* Styles here */
 }
+
 .profile-phone .mx-listview .mx-listview-searchbar button,
 .profile-tablet .mx-listview .mx-listview-searchbar button {
   /* Reset Search Button - default hidden */
 }
+
 .profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input,
 .profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input {
   /* Search Field */
 }
+
 .profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input input,
 .profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input input {
   /* Styles here */
 }
+
 .profile-phone label,
 .profile-tablet label {
   /* Styles here */
 }
+
 .profile-phone .mx-listview-loadMore,
 .profile-tablet .mx-listview-loadMore {
   /* Listview Load More button */
@@ -562,21 +652,27 @@ body .mx-header {
   /* Styles here */
   border: 0;
 }
+
 body .mx-header .mx-header-center {
   /* Styles here */
 }
+
 body .mx-header .mx-header-left {
   /* Styles here */
 }
+
 body .mx-header .mx-header-left .mx-link {
   /* Styles here */
 }
+
 body .mx-header .mx-header-right {
   /* Styles here */
 }
+
 body .mx-header .mx-title {
   /* Styles here */
 }
+
 body .mx-header .mx-sidebartoggle {
   /* Styles here */
 }
@@ -592,6 +688,7 @@ body .mx-header .mx-sidebartoggle {
 .page-dashboard {
   /* Styles here */
 }
+
 .page-dashboard .chartjs-node {
   /* Styles here */
 }
@@ -661,6 +758,7 @@ body .mx-header .mx-sidebartoggle {
   border: 0;
   padding-bottom: 20px;
 }
+
 .page-tabs .tabsfullwidth {
   /* Styles here */
 }
@@ -829,9 +927,11 @@ body .mx-header .mx-sidebartoggle {
 .card-header-action {
   /* Title + button + border below title and button */
 }
+
 .card-header-action .card-title {
   /* Styles here */
 }
+
 .card-header-action .btn {
   /* Styles here */
 }
@@ -855,6 +955,7 @@ body .mx-header .mx-sidebartoggle {
 .card-icon {
   /* Styles here */
 }
+
 .card-icon .glyphicon {
   /* Styles here */
 }
@@ -894,6 +995,7 @@ body .mx-header .mx-sidebartoggle {
 .dashboardstat {
   /* Styles here */
 }
+
 .dashboardstat .dashboardstat-left,
 .dashboardstat .dashboardstat-right {
   /* Styles here */
@@ -985,15 +1087,19 @@ body .mx-header .mx-sidebartoggle {
 .profilecard {
   /* Styles here */
 }
+
 .profilecard .profilecard-contentwrapper {
   /* Styles here */
 }
+
 .profilecard .profilecard-imgwrapper {
   /* Styles here */
 }
+
 .profilecard .profilecard-actionwrapper {
   /* Styles here */
 }
+
 .profilecard .profilecard-contentwrapper,
 .profilecard .profilecard-imgwrapper,
 .profilecard .profilecard-actionwrapper {
@@ -1026,9 +1132,11 @@ body .mx-header .mx-sidebartoggle {
 .profileheader {
   /* Styles here */
 }
+
 .profileheader .profileheader-content {
   /* Styles here */
 }
+
 .profileheader .profileheader-image {
   /* Styles here */
 }
@@ -1099,9 +1207,11 @@ body .mx-header .mx-sidebartoggle {
 .tabsfullwidth {
   /* Styles here */
 }
+
 .tabsfullwidth > .mx-tabcontainer-tabs {
   /* Styles here */
 }
+
 .tabsfullwidth > .mx-tabcontainer-content {
   /* Styles here */
 }
@@ -1114,6 +1224,7 @@ body .mx-header .mx-sidebartoggle {
 .wizard {
   /* Wizard line between steps */
 }
+
 .wizard:before {
   /* Styles here */
 }
@@ -1142,6 +1253,7 @@ body .mx-header .mx-sidebartoggle {
 .profile-phone .wizard:before {
   /* Styles here */
 }
+
 .profile-phone .wizard .wizard-step-number {
   /* Styles here */
 }
@@ -1154,25 +1266,32 @@ body .mx-header .mx-sidebartoggle {
 .templategrid-profilecard {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-contentwrapper {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-imgwrapper {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-contentwrapper,
 .templategrid-profilecard .templategrid-profilecard-imgwrapper {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-btn {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-img {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-title {
   /* Styles here */
 }
+
 .templategrid-profilecard .templategrid-profilecard-subtitle {
   /* Styles here */
 }

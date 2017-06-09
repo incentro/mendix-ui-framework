@@ -1,66 +1,66 @@
 @import "custom-variables";
 
 // Base
-@import "base/base.scss";
+@import "mendix.base/base.scss";
 
 // Components
-@import "components/alerts";
-@import "components/buttons";
-@import "components/datagrids";
-@import "components/dataview";
-@import "components/grid";
-@import "components/groupbox";
-@import "components/inputs";
-@import "components/listview";
-@import "components/modals";
-@import "components/navigation";
-@import "components/navigationlist";
-@import "components/tabcontainer";
-@import "components/tables";
-@import "components/templategrids";
-@import "components/typography";
+@import "mendix.components/alerts";
+@import "mendix.components/buttons";
+@import "mendix.components/datagrids";
+@import "mendix.components/dataview";
+@import "mendix.components/grid";
+@import "mendix.components/groupbox";
+@import "mendix.components/inputs";
+@import "mendix.components/listview";
+@import "mendix.components/modals";
+@import "mendix.components/navigation";
+@import "mendix.components/navigationlist";
+@import "mendix.components/tabcontainer";
+@import "mendix.components/tables";
+@import "mendix.components/templategrids";
+@import "mendix.components/typography";
 
 // Layouts
-@import "layouts/base";
+@import "mendix.layouts/base";
 
 // Mobile
-@import "mobile/layouts/base";
-@import "mobile/components/listview";
-@import "mobile/components/mx-header";
-@import "mobile/components/tabcontainer";
+@import "mendix.mobile/layouts/base";
+@import "mendix.mobile/components/listview";
+@import "mendix.mobile/components/mx-header";
+@import "mendix.mobile/components/tabcontainer";
 
 // Page Templates
-@import "pagetemplates/responsive/page-dashboard";
-@import "pagetemplates/responsive/page-form";
-@import "pagetemplates/responsive/page-masterdetail";
-@import "pagetemplates/responsive/page-tabs";
-@import "pagetemplates/responsive/page-website";
-@import "pagetemplates/responsive/page-wizard";
+@import "mendix.pagetemplates/responsive/page-dashboard";
+@import "mendix.pagetemplates/responsive/page-form";
+@import "mendix.pagetemplates/responsive/page-masterdetail";
+@import "mendix.pagetemplates/responsive/page-tabs";
+@import "mendix.pagetemplates/responsive/page-website";
+@import "mendix.pagetemplates/responsive/page-wizard";
 
-@import "pagetemplates/phone/phone-page-dashboard";
-@import "pagetemplates/phone/phone-page-form";
-@import "pagetemplates/phone/phone-page-listview";
-@import "pagetemplates/phone/phone-page-wizard";
+@import "mendix.pagetemplates/phone/phone-page-dashboard";
+@import "mendix.pagetemplates/phone/phone-page-form";
+@import "mendix.pagetemplates/phone/phone-page-listview";
+@import "mendix.pagetemplates/phone/phone-page-wizard";
 
-@import "pagetemplates/tablet/tablet-page-dashboard";
-@import "pagetemplates/tablet/tablet-page-form";
-@import "pagetemplates/tablet/tablet-page-masterdetail";
-@import "pagetemplates/tablet/tablet-page-wizard";
+@import "mendix.pagetemplates/tablet/tablet-page-dashboard";
+@import "mendix.pagetemplates/tablet/tablet-page-form";
+@import "mendix.pagetemplates/tablet/tablet-page-masterdetail";
+@import "mendix.pagetemplates/tablet/tablet-page-wizard";
 
 // Building Blocks
-@import "buildingblocks/card";
-@import "buildingblocks/dashboardcard";
-@import "buildingblocks/dashboardstat";
-@import "buildingblocks/form";
-@import "buildingblocks/formblock";
-@import "buildingblocks/masterdetail";
-@import "buildingblocks/pageheader";
-@import "buildingblocks/sectionheader";
-@import "buildingblocks/profilecard.scss";
-@import "buildingblocks/profileheader";
-@import "buildingblocks/products";
-@import "buildingblocks/section";
-@import "buildingblocks/sidebarheader";
-@import "buildingblocks/tabsfullwidth";
-@import "buildingblocks/wizard";
-@import "buildingblocks/templategrid/templategrid-profilecard.scss";
+@import "mendix.buildingblocks/card";
+@import "mendix.buildingblocks/dashboardcard";
+@import "mendix.buildingblocks/dashboardstat";
+@import "mendix.buildingblocks/form";
+@import "mendix.buildingblocks/formblock";
+@import "mendix.buildingblocks/masterdetail";
+@import "mendix.buildingblocks/pageheader";
+@import "mendix.buildingblocks/sectionheader";
+@import "mendix.buildingblocks/profilecard.scss";
+@import "mendix.buildingblocks/profileheader";
+@import "mendix.buildingblocks/products";
+@import "mendix.buildingblocks/section";
+@import "mendix.buildingblocks/sidebarheader";
+@import "mendix.buildingblocks/tabsfullwidth";
+@import "mendix.buildingblocks/wizard";
+@import "mendix.buildingblocks/templategrid/templategrid-profilecard.scss";
