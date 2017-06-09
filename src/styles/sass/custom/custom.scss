@@ -1,5 +1,22 @@
 @import "custom-variables";
 
+// Mixins ======================================================================
+//@import 'mixins/arrow';
+//@import 'mixins/aspect-ratio';
+//@import 'mixins/breakpoints';
+//@import 'mixins/ellipsis';
+//@import 'mixins/gradient';
+//@import 'mixins/get-color-yiq';
+//@import "mixins/animation-delay";
+//@import "mixins/hyphenate";
+//@import "mixins/ignorlist";
+
+// Addons ======================================================================
+//@import 'addon/fonts';
+//@import 'addon/broken-image';
+//@import 'addon/flexbox';
+//@import "addon/animations";
+
 // Base
 @import "mendix.base/base.scss";
 

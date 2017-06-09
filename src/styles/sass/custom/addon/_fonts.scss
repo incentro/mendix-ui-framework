@@ -1,0 +1,34 @@
+// Custom fonts ----------------------------------------------------------------
+@font-face {
+  font-family: 'FontAwesome';
+  	src: url('../../../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+  	url('../../../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+$fontawesome: 'FontAwesome';
+
+.fa {
+  &:before {
+    font-family: $fontawesome;
+    margin-right: 10px;
+  }
+
+  &.plus:before, &.add:before {content: '\f067';}
+  &.times:before, &.cross:before {content: '\f00d';}
+  &.ok:before, &.check:before {content: '\f00c';}
+  &.edit:before {content: '\f044';}
+  &.delete:before, &.trash:before {content: '\f014';}
+  &.save:before {content: '\f0c7';}
+  &.time:before, &.clock:before {content: '\f017';}
+  &.folder:before {content: '\f115';}
+  &.user:before {content: '\f007';}
+  &.external:before {content: '\f14c';}
+  &.thumb-up:before {content: '\f087';}
+  &.tripadvisor:before {content: '\f262';}
+  &.cancel:before {content: '\f057';}
+  &.eye:before {content: '\f06e';}
+  &.arrow-circle-right:before {content: '\f0a9';}
+  &.newspaper:before {content: '\f1ea';}
+  &.stethoscope:before {content: '\f0f1';}
+}

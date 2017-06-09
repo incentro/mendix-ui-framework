@@ -1,0 +1,26 @@
+img {position: relative;}
+img:before {
+  background-color: rgb(230, 230, 230);
+  border: 2px dotted rgb(200, 200, 200);
+  border-radius: 5px;
+  content: " ";
+  display: block;
+  height: calc(100% + 10px);
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+}
+img:after {
+  color: rgb(100, 100, 100);
+  content: "\f127" " gebroken afbeelding " attr(alt);
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: $fontawesome;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+  width: 100%;
+}
