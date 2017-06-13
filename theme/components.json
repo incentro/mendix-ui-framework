@@ -3,8 +3,8 @@
     "css": [
       "lib/bootstrap/css/bootstrap.min.css",
       "mxclientsystem/mxui/ui/mxui.css",
-      "styles/lib/lib.css",
-      "styles/custom.css"
+      "styles/css/lib/lib.css",
+      "styles/css/custom/custom.css"
     ],
     "js": [
       "mxclientsystem/mxui/mxui.js"

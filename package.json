@@ -12,7 +12,11 @@
     "theming",
     "sass"
   ],
-  "author": "Kasper van Merrienboer <kasper.vanmerrienboer@incentro.com>",
+  "contributors": [
+    "Kasper van Merrienboer <kasper.vanmerrienboer@incentro.com>",
+    "Rob Duits",
+    "Jarno de Wit <jarno.dewit@incentro.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.14.0",
