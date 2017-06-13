@@ -94,7 +94,6 @@ gulp.task('watch:browsersync-sass', function () {
 gulp.task('dev', ['build-js', 'browsersync-sass', 'watch:browsersync-sass', 'watch:development-js'], function () {
   browserSync.init({
     proxy: proxyAddress,
-    online: false,
     ws: true
   });
 });
