@@ -62,8 +62,16 @@
     }
     @include breakpoint('tablet-portrait') {flex: 2;}
   }
-  .flex-single[class^="col-md-"],
-  .flex-double[class^="col-md-"] {width: auto !important;}
+  div[class^="col-md-"] {width: auto !important;}
 
   img {max-width: 100%;}
+  
+  &.row {
+    margin: 0;
+    div[class^="col-md-"] {
+      margin: 0;
+      float: none;
+    }
+    div[class^="col-md-"]:not(.horizontal-padding):not(.border) {padding: 0;}
+  }
 }
